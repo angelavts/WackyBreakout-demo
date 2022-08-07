@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0,70,105,1);
+    background: -moz-linear-gradient(top, rgba(0,70,105,1) 0%, rgba(0,113,179,1) 48%, rgba(0,73,115,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,70,105,1)), color-stop(48%, rgba(0,113,179,1)), color-stop(100%, rgba(0,73,115,1)));
+    background: -webkit-linear-gradient(top, rgba(0,70,105,1) 0%, rgba(0,113,179,1) 48%, rgba(0,73,115,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,70,105,1) 0%, rgba(0,113,179,1) 48%, rgba(0,73,115,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,70,105,1) 0%, rgba(0,113,179,1) 48%, rgba(0,73,115,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,70,105,1) 0%, rgba(0,113,179,1) 48%, rgba(0,73,115,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004669', endColorstr='#004973', GradientType=0 );
+
+}
+.main{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions h3{
+  font: bold italic 25px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 10px;
+}
+.instructions div {
+  width: 800px;
+  margin: 10px
+}
+ 
+.instructions ol {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+.instructions ol li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font: bold italic 35px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 10px;
+  background: #ffffff7d;
+  padding: 10px;
+}
+
+.instructions ol li span{
+
+  color: rgb(100, 100, 100);
+}
+ 
+.instructions li p {
+  font: 18px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: rgb(18, 18, 18);
+}
+ 
+.instructions span {
+  position: absolute;
+}
+
+footer{
+    padding: 20px 0px;
+    color: rgb(38, 50, 71);
+}
+.logo{
+    margin: 20px 0px;
+    width: 400px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+#unityContainer{
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.56);
+
+}
+
+
+
